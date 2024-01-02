@@ -1,0 +1,3 @@
+- This is a complete implementation of event booking REST API in GO
+- Tools used: Only go packages supporting sql database, jwt and crypto methods
+- You can refer api-test folder for the sample test performed using VS Code Rest extension
