@@ -1,0 +1,12 @@
+GET    /events                 : Get a list of available events
+GET    /events/<id>            : Get an event with a particular id
+POST   /events                 : Create a new bookable event *
+PUT    /events/<id>            : Update an event **
+DELETE /events/<id>            : Delete an event **
+POST   /signup                 : Create new user
+POST   /login                  : Authenticate user (JWT token)
+POST   /events/<id>/register   : Register user for new event *
+DELETE /events/<id>/register   : Cancel Registration *
+
+* Auth Required
+** Auth required (Creator)

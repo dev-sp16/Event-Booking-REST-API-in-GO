@@ -1,0 +1,14 @@
+go mod init event-booking.com/rest-api
+go get -u github.com/gin-gonic/gin (Run as admin)
+go get github.com/mattn/go-sqlite3
+go env -w CGO_ENABLED=1
+go get -u golang.org/x/crypto
+go get -u github.com/golang-jwt/jwt/v5
+
+Tools - 
+Gin framework 
+Visual studio Rest extension for api testing
+Go std. lib sqlite3 ( Initializing it will create api.db file to store tables )
+To work with sqlite3 install gcc and run 'go env -w CGO_ENABLED=1'
+bcrypt package for hashing the password
+golang-jwt package for generating jwt token
